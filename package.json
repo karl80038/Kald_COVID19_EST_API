@@ -1,0 +1,26 @@
+{
+  "name": "kald_covid19_est_api",
+  "version": "1.0.0",
+  "description": "Enables users to get stats about COVID-19\u001b[D\u001b[D\u001b[description:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karl80038/Kald_COVID19_EST_API.git"
+  },
+  "author": "Karl80038",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karl80038/Kald_COVID19_EST_API/issues"
+  },
+  "homepage": "https://github.com/karl80038/Kald_COVID19_EST_API#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}

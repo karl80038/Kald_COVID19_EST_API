@@ -1,0 +1,40 @@
+<%- include('includes/head.ejs') %>
+<%- include('includes/navigationRequestView') %>
+</head>
+<body>
+    <main>
+    <div class="container">
+    <div class="detailsContainer">
+            <h1 class="title"><%= pageTitle %></h1>
+            <div class="info">
+                <%= pageInfo %>
+            </div>
+        <table>
+            <tr>
+                <th><div class="description"> </div></th>
+                <th><div class="description"><%= firstDay %></div></th>
+                <th><div class="description"><%= lastDay %></div></th>
+
+            </tr>
+            <tr>
+                <td><div class="description">New daily cases</div></th>
+                <td><div class="casesDayOne"><%= cDayOne %></div></td>
+                <td><div class="casesLastDay"><%= cLastDay %></div></td>
+
+            </tr>
+            <tr>
+                <td><div class="description">Cases in total</div></th>
+                <td><div class="totalCasesDayOne"><%= totCDayOne %></div></td>
+                <td><div class="totalCasesLastDay"><%= totCLastDay %></div></td>
+            </tr>
+            <tr>
+                <td><div class="description">Recoveries in total</div></th>
+                <td><div class="totalRecoveriesDayOne"><%= totRecDayOne %></div></td>
+                <td><div class="totalRecoveriesLastDay"><%= totRecLastDay %></div></td>
+
+            </tr>
+            
+        </table>
+    </div>    
+<%- include('includes/end.ejs') %>
+<%- include('includes/footer.ejs') %>
